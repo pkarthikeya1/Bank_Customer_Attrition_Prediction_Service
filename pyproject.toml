@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bank-customer-attrition-prediction"
+version = "0.1.0"
+description = ""
+authors = ["karthikeya pervela <69100096+pkarthikeya1@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "bank_customer_attrition_prediction", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
