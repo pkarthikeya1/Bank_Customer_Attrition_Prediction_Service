@@ -9,7 +9,7 @@ This project tackles the *challenge of predicting customer attrition* in a banki
 -->Balanced Approach: Model optimization focused on achieving a balanced F1 score of 0.63. The F1 score considers both precision (predicting churn correctly) and recall (not missing churned customers), ensuring the model performs well in identifying both types of customers.
 
 -->Interactive Web App: A user-friendly Streamlit web application was developed. This allows users to visualize the model's behavior and potentially interact with it to explore customer churn risk factors.
-  # Link : https://frontendpy-h24q76f4ncj9qnnd2u6zkp.streamlit.app/
+      ## Link : https://frontendpy-h24q76f4ncj9qnnd2u6zkp.streamlit.app/
 
 #Benefits:
 
