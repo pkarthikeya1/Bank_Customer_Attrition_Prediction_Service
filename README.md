@@ -1,6 +1,6 @@
 # Bank Customer Attrition Prediction Service
 # Link : https://frontendpy-h24q76f4ncj9qnnd2u6zkp.streamlit.app/
-This project tackles the challenge of predicting customer churn in a banking context. It leverages machine learning models to identify customers at risk of leaving, allowing banks to proactively implement retention strategies.
+This project tackles the *challenge of predicting customer attrition* in a banking context. It leverages machine learning models to identify customers at risk of leaving, allowing banks to proactively implement retention strategies.
 
 #Key Achievements:
 
