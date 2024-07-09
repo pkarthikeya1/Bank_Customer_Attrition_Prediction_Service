@@ -36,6 +36,6 @@ This project tackles the challenge of predicting customer attrition in a banking
    cd Bank_Customer_Attrition_Prediction_Service
    pip intstall poetry
    poetry install
-   streamlit run app/app.py
+   streamlit run src/frontend.py
 
 
