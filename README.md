@@ -32,5 +32,10 @@ This project tackles the challenge of predicting customer attrition in a banking
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/customer-attrition-prediction.git
-   cd customer-attrition-prediction
+   git clone https://github.com/pkarthikeya1/Bank_Customer_Attrition_Prediction_Service.git
+   cd Bank_Customer_Attrition_Prediction_Service
+   pip intstall poetry
+   poetry install
+   streamlit run app/app.py ```
+
+
