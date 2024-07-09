@@ -25,7 +25,6 @@ This project tackles the challenge of predicting customer attrition in a banking
 - **notebooks/**: Jupyter notebooks for data exploration, model building, and evaluation.
 - **models/**: Saved machine learning models.
 - **app/**: Streamlit web application code.
-- **requirements.txt**: Python dependencies required to run the project.
 - **README.md**: Project documentation.
 
 ## Installation
