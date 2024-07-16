@@ -2,7 +2,7 @@ name: Ping Streamlit WebApp
 
 on:
   schedule:
-    - cron: '* * */7 * *' # This cron expression means every 7 days at midnight UTC
+    - cron: '0 0 * * *' # This cron expression means every 7 days at midnight UTC
   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
