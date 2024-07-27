@@ -2,8 +2,8 @@ name: Ping Streamlit WebApp
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
-  workflow_dispatch: # Allows manual triggering of the workflow
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   ping:
@@ -12,4 +12,5 @@ jobs:
     steps:
     - name: Send HTTP request to Streamlit app
       run: |
-        curl -X GET "https://frontendpy-h24q76f4ncj9qnnd2u6zkp.streamlit.app/"
+        curl -X GET "https://frontendpy-h24q76f4ncj9qnnd2u6zkp.streamlit.app/" -w "%{http_code}\n" -o /dev/null -s
+
